@@ -1,0 +1,231 @@
+1  sudo apt update
+    2  sudo su
+    3  sudo apt install curl
+    4  ls -a
+    5  cd /var/lib/dpkg/lock-frontend
+    6  rm -rf /var/lib/dpkg/lock-frontend
+    7  sudo rm /var/lib/dpkg/lock-frontend
+    8  sudo rm /var/lib/dpkg/lock-frontend
+    9  clear
+   10  sudo apt install curel
+   11  sudo rm /var/lib/dpkg/lock-frontend
+   12  sudo rm /var/lib/dpkg/lock
+   13  sudo rm /var/lib/dpkg/lock*
+   14  sudo apt insatll curl
+   15  sudo apt install curl
+   16  curl -fsSL https://get.docker.com -o get-docker.sh
+   17  sudo sh get-docker.sh
+   18  docker -v
+   19  sudo su 
+   20  shutdown now
+   21  who
+   22  ls *
+   23  ls P*
+   24  ls f?
+   25  ls f???
+   26  ls echo "this is my file" >>test2.txt
+   27  ls test2.txt
+   28  ls t[a-z].txt
+   29  ls test[a-z].txt
+   30  ls test2[a-z].txt
+   31  ls test2[1-9].txt
+   32  ls test[1-9].txt
+   33  cd test
+   34  rmdir ff
+   35  /home
+   36  /home/user
+   37  $ HOME
+   38  $ home
+   39  /home
+   40  cd home
+   41  ls
+   42  cd $Home
+   43  pwd
+   44  vi file2.txt
+   45  cat file2.txt
+   46  vi file2.txt
+   47  sudo shutdown
+   48  shutdown -c
+   49  clear
+   50  ps
+   51  ps -ef
+   52  ps -ef | grep bash
+   53  vi file1.txxxxxxxxxxt
+   54  ls
+   55  vi test2.txt
+   56  vi file1.txxxxxxxxxxt 
+   57  vi test2.txt
+   58  shutdown
+   59  shutdown now
+   60  ls -ltr test
+   61  ls -ltr test/
+   62  cd
+   63  sudo su
+   64  clear
+   65  sudo su
+   66  ip a
+   67  ls
+   68  cp test2.txt newfile.txt
+   69  mkdir luckyday
+   70  cp test2.txt f5.txt
+   71  cat f5.txt
+   72  ls f5.txt
+   73  ls
+   74  cp *.txt f5.txt
+   75  cp *.txt luckyday
+   76  cpv-i *.txt luckyday
+   77  cp-i *.txt luckyday
+   78  cp -i *.txt luckyday
+   79  cp -v *.txt luckyday
+   80  man cp |grep version
+   81  cp --version
+   82  man cp
+   83  shutdown now
+   84  ps aux
+   85  ps aur |grep top
+   86  ps aux |grep top
+   87  kill  1860 
+   88  ps aux |grep top
+   89  ls\
+   90  cd luckyday
+   91  ls
+   92  tar cvf file2.tar file2.txt 
+   93  ls
+   94  tar xvfz file2.far
+   95  tar xvf file2.far
+   96  tar xvf file2.tar
+   97  ls
+   98  cat file2.txt
+   99  rm -rf file2.txt
+  100  tar xvf file2.tar
+  101  ls
+  102  cat file2.txt
+  103  df -ht
+  104  df -hT
+  105  du -h
+  106  free
+  107  ifconfig
+  108  ip 
+  109  ip a
+  110  sudo apt install netstat
+  111  sudo apt install net-tools
+  112  net stat -an | grep LISTEN
+  113  net stat -an|grep LISTEN
+  114  netstat -an | grep -i listen
+  115  wget google.com
+  116  wget google.com >>a.txt
+  117  ls
+  118  cat a.txt
+  119  w -o
+  120  wget -o a.txt google.com
+  121  wget -O a.txt google.com
+  122  curl -o b.txt google.com
+  123  curl https://get.docker.com -o get-docker.sh
+  124  curl -o b.txt github.com
+  125  cat docker.sh
+  126  cat get-docker.sh
+  127  uname -a
+  128  who
+  129  who i am i
+  130  whoami
+  131  history
+  132  alias ll= "ls -latr"
+  133  alias ll='ls -l'
+  134  ll
+  135  unalias ll
+  136  ll
+  137  ls
+  138  gzip file2.txt
+  139  ls
+  140  gunzip fil2.txt.gz
+  141  which ls
+  142  history
+  143  sudo apt update -y && sudo apt install plocate
+  144  locate file2.txt
+  145  ls
+  146  lsof -i tcp
+  147  cmp file2.txt test2.txt
+  148  cmp f5.txt test2.txt
+  149  cat f5.txt
+  150  cat test2.txt
+  151  cmp f5.txt newfile.txt
+  152  car newfile.txt
+  153  cat newfile.txt
+  154  cmp f5.txt a.txt
+  155  wc f5.txt
+  156  code f5.txt
+  157  grep " " /etc/passwd
+  158  echo "Hello World" |tr '[:lower:]' '[:upper:]'
+  159  echo "ustglobal" | tr -d 'aeiou'
+  160  echo "ustgloLLL' | tr-d 'aeiou' 'L'
+  161  echo "ustgloLLL" | tr-d 'aeiou' 'L'
+  162  echo "ustgloLLL" | tr -d 'aeiou' 'L'
+  163  echo "ustgloBALLL" | tr -d 'aeiou' 'BA'
+  164  echo "ustgloBALLL" | tr -d 'aeiou''BA'
+  165  sudo ch own
+  166  sudo chown root:root data1.txt
+  167  sudo chown root:root f5.txt
+  168  ls-ltr
+  169  ls -ltr
+  170  systemctl
+  171  systemctl status docker
+  172  systmctl stop docker
+  173  systemctl stop docker
+  174  systemctl start docker
+  175  which ls
+  176  ln /user/bin/ls myls
+  177  sudo ln /user/bin/ls myls
+  178  sudo ln /usr/bin/ls myls
+  179  myls
+  180  ./myls
+  181  ls -a
+  182  ln -s /usr/bin/ls myls1
+  183  myis1
+  184  myls1
+  185  ./myls1
+  186  ls -i
+  187  ls | tet myfile.txt
+  188  ls | tee f5.txt
+  189  ps -aux
+  190  ps -exaux
+  191  crontab -e
+  192  ls
+  193  crontab -e
+  194  ls
+  195  pwd
+  196  cd ..
+  197  ls
+  198  cd luckyday
+  199  ls
+  200  tail -f Hello.txt
+  201  tail -f hello.txt
+  202  crontab -e
+  203  tail -f Hello.txt
+  204  ls
+  205  pwd
+  206  cd ..
+  207  ls
+  208  tail -f Hello.txt
+  209  crontab -e
+  210  tail -f Hello.txt
+  211  crontab -e
+  212  tail -f Hello.txt
+  213  sed -n '2p' test.txt
+  214  sed -n '2p' f5.txt
+  215  ls
+  216  cd luckyday/
+  217  ls
+  218  cd ..
+  219  history
+  220  cd luckyday
+  221  history
+  222  cut -d ":" -f 1,6 /etc/password
+  223  cut -d ":" -f 1,6 /etc/passwrd
+  224  cat /etc/passwd
+  225  cat /etc/passwd | tr ':' ' '
+  226  cat /etc/passwd | tr ':' ' ' >>t.txt
+  227  ls
+  228  gedit t.txt 
+  229  sed -n '2p' t.txt 
+  230  cat /etc/passwd | tr ':' ' ' >>t.txt | sed -n '2p' t.txt
+  231  history
